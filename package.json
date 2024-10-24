@@ -1,0 +1,19 @@
+{
+  "name": "demo-241024-bootstrap-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/custom.scss:css/style.css --style compressed",
+    "watch": "sass --watch scss/custom.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "1.77.6"
+  }
+}
